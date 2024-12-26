@@ -1,0 +1,13 @@
+Q4: Backend Server
+Problem Description:
+Create a simple backend server using Go that handles CRUD operations (Create, Read, Update, Delete) for a user management system. The users are stored in an SQLite database.
+
+Solution Explanation:
+Use Go’s net/http package to handle HTTP requests.
+Set up SQLite database for storing users.
+Define CRUD routes:
+GET /users: Fetch all users.
+GET /users/{id}: Fetch a specific user by ID.
+POST /users: Create a new user.
+PUT /users/{id}: Update an existing user.
+DELETE /users/{id}: Delete a user.
