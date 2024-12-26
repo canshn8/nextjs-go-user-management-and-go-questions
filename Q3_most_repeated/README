@@ -1,0 +1,8 @@
+Q3: Most Repeated
+Problem Description:
+Given an array of strings, determine which string is the most repeated. If multiple strings have the same highest frequency, return the first one.
+
+Solution Explanation:
+Count the frequency of each string using a map.
+Track the string with the highest count.
+Return the most repeated string.
