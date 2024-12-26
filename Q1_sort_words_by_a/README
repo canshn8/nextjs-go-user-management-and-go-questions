@@ -1,0 +1,8 @@
+Q1: Sort Words By "A"
+Problem Description:
+You are given a list of words. The goal is to sort these words based on the number of times the letter "a" appears in each word. If two words have the same number of "a"s, the longer word should come first.
+
+Solution Explanation:
+Count the occurrences of the letter "a" in each word.
+Sort words primarily by the count of "a"s (in descending order).
+For words with the same number of "a"s, sort them by their length (longer first).
