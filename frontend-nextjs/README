@@ -1,0 +1,7 @@
+Frontend - Next.js
+Problem Description:
+Create a frontend using Next.js that can interact with the backend server, display the list of users, and allow navigation to the Users Page.
+
+Solution Explanation:
+HomePage: A simple landing page with a button that navigates to the /users page when clicked.
+UsersPage: A page that fetches users from the backend (GET /users) and displays them in a list.
