@@ -1,0 +1,8 @@
+Q2: Recursive Pattern
+Problem Description:
+Create a recursive pattern that prints numbers in a specific sequence. The pattern starts at 9, prints 9, then moves to 4, prints 4, then moves to 2, and stops.
+
+Solution Explanation:
+Start with the number 9.
+Print the number, and recursively call the next number in the pattern.
+Base case is when the number reaches 2, at which point the recursion stops.
